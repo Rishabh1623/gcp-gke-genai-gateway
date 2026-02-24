@@ -1,0 +1,13 @@
+# Terraform State and Lock files
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.tfstate.lock.info
+terraform.tfvars
+
+# OS generated files
+.DS_Store
+
+# Python/App virtual environments and caches
+__pycache__/
+*.pyc
