@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: genai-app
-        image: gcr.io/rishabh-genai-gateway-123/hello-genai:v1 # Update Project ID
+        image: gcr.io/genai-gateway-488421/hello-genai:v5 # Update Project ID
         ports:
         - containerPort: 8080
 ---
